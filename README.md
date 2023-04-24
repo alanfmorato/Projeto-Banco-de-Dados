@@ -24,3 +24,5 @@ precisa estar registrado em algum ambiente (sala).
 ---
 
 ## 01 - Modelo Conceitual
+- [ ] Analisar os requisitos funcionais e criar o modelo conceitual, utilizar a Ferramenta BRModelo. Esse modelo deve apresentar os conceitos vistos em aula.
+OBS: Poderá ser utilizado o mesmo tema utilizado em outra disciplina ou escolher e levantar os requisitos para um novo sistema de software.
