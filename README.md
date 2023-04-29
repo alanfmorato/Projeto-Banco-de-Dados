@@ -68,3 +68,12 @@ Todas as tabelas do sistema estão na 1FN e atendem todos os requisitos acima
 * Não tem atributo dependente de parte da PK - Composta (Se tiver quebra em nova tabela)
 
 Todas as tabelas do sistema est~;ao na 1FN, todas os atributos que não são chaves dependem da chave
+
+### Terceira Forma Normal (3FN)
+
+* Estar na 1FN e 2FN
+* Atributo não chave não deve  depender de outro atributo não chave, mas sim da PK
+
+Todas os atributos da tabela que não são chave depende apenas da PK
+
+
