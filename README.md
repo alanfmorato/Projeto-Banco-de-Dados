@@ -43,3 +43,23 @@ OBS: - Demonstrar o que ocorre em cada passo de forma textual. (Apenas para os a
 - [x]  Mapear Atributos Multivalorados: 
 
 ![image](https://user-images.githubusercontent.com/102003274/235305578-cd5767b3-5925-49ae-bed3-a9c22a44957a.png)
+
+
+## 03 - Normalização
+
+A normalização de tabelas é um processo utilizado no projeto de bancos de dados relacionais para reduzir a redundância de dados e evitar anomalias de atualização. Ele envolve dividir uma tabela grande em duas ou mais tabelas menores e relacioná-las por meio de chaves estrangeiras.
+
+O objetivo da normalização de tabelas é tornar o banco de dados mais eficiente e fácil de manter, garantindo que cada tabela armazene informações sobre uma única entidade ou assunto e que os dados estejam organizados de forma lógica e consistente. A normalização de tabelas é baseada em um conjunto de regras e formas normais que definem como os dados devem ser estruturados para evitar problemas comuns, como redundância de dados, inconsistências e conflitos de atualização.
+
+### Primeira Forma Normal (1FN)
+
+Requisitos para a tabela estar na 1FN
+* Valores atoômicos e indivisiveis
+* Sem duplicidade de valores
+* Tem uma PK
+* Decomposta
+
+Todas as tabelas do sistema estão na 1FN e atendem todos os requisitos acima
+
+### Segunda Forma Normal (2FN)
+
