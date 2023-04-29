@@ -63,3 +63,8 @@ Todas as tabelas do sistema estão na 1FN e atendem todos os requisitos acima
 
 ### Segunda Forma Normal (2FN)
 
+* Estar na 1FN
+* Todos os atributos não-chave são dependentes de todas as partes da PK
+* Não tem atributo dependente de parte da PK - Composta (Se tiver quebra em nova tabela)
+
+Todas as tabelas do sistema est~;ao na 1FN, todas os atributos que não são chaves dependem da chave
