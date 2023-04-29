@@ -24,16 +24,14 @@ precisa estar registrado em algum ambiente (sala).
 ---
 
 ## 01 - Modelo Conceitual
-- [ ] Analisar os requisitos funcionais e criar o modelo conceitual, utilizar a Ferramenta BRModelo. Esse modelo deve apresentar os conceitos vistos em aula.
+- [x] Analisar os requisitos funcionais e criar o modelo conceitual, utilizar a Ferramenta BRModelo. Esse modelo deve apresentar os conceitos vistos em aula.
 OBS: Poderá ser utilizado o mesmo tema utilizado em outra disciplina ou escolher e levantar os requisitos para um novo sistema de software.
 
-- [x] Requisito 01 - Usuários devem fazer login usando e-mail e senha: Nesta entidade criei o e-mail e senha do usuário, sendo que o e-mail é a PK da entidade
+![image](https://user-images.githubusercontent.com/102003274/235305634-e8e3cc98-387c-4723-ab33-fcff5a3b46a6.png)
 
 
-![image](https://user-images.githubusercontent.com/102003274/234447430-59421d41-919b-4bfb-8dee-e4d3a7e27c48.png)
+## 02 - Modelo Lógico Relacional
+- [ ] Mapear o modelo conceitual, realizado na parte 1, para o modelo lógico. São 7 passos propostos por Elmasri & Navathe (1994), para o mapeamento do Modelo Entidade Relacionamento para o Modelo Relacional: - Mapear os Conjuntos de Entidades “Fortes” (Regulares), - Mapear Conjuntos de Entidades Fracas,- Mapear Conjuntos de Relacionamento Binário 1:1,-Mapear Conjuntos de Relacionamento Binário 1:N, - Mapear Conjuntos de Relacionamento Binário M:N, -Mapear Conjuntos de Relacionamentos n>2 e - Mapear Atributos Multivalorados.
+OBS: - Demonstrar o que ocorre em cada passo de forma textual. (Apenas para os alunos que utilizarem BR Modelo)
 
-- [x] Requisito 02 - Usuários devem ter perfis diferentes: administrador e funcionário: Nesta entidade adicionei o tipo de usuário (admnistrador ou funcionário) assim saberemos qual permissão cada um deles possui.
-
-
-![image](https://user-images.githubusercontent.com/102003274/234447936-ef8d4d15-88e0-4165-8054-ece2d7d0fa2a.png)
-
+![image](https://user-images.githubusercontent.com/102003274/235305578-cd5767b3-5925-49ae-bed3-a9c22a44957a.png)
