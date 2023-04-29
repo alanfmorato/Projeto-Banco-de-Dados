@@ -34,18 +34,12 @@ OBS: Poderá ser utilizado o mesmo tema utilizado em outra disciplina ou escolhe
 - [x] Mapear o modelo conceitual, realizado na parte 1, para o modelo lógico. São 7 passos propostos por Elmasri & Navathe (1994), para o mapeamento do Modelo Entidade Relacionamento para o Modelo Relacional: - Mapear os Conjuntos de Entidades “Fortes” (Regulares), - Mapear Conjuntos de Entidades Fracas,- Mapear Conjuntos de Relacionamento Binário 1:1,-Mapear Conjuntos de Relacionamento Binário 1:N, - Mapear Conjuntos de Relacionamento Binário M:N, -Mapear Conjuntos de Relacionamentos n>2 e - Mapear Atributos Multivalorados.
 OBS: - Demonstrar o que ocorre em cada passo de forma textual. (Apenas para os alunos que utilizarem BR Modelo)
 
-###1 - Mapear os Conjuntos de Entidades “Fortes” (Regulares): Entidade "usuario" e "ambiente" é forte, pois podem existir independente de outras condições
-
-###2 - Mapear Conjuntos de Entidades Fracas: Entidade "Equipamento" é fraca, pois depende exclusivamente estar registrado por um funcionário e em um ambiente. Ela é o elo de ligação entre as outras entidades.
-
-###3 - Mapear Conjuntos de Relacionamento Binário 1:1 : usuario(1,1) - (0,n)equipamento -> Ou seja, 1 funcionário pode ou não ter um equipamento registrado em seu nome, porém um equipamento sempre estará registrado no nome de um funcionário. equipamento (1,1) - (0,n) datas, 1 equipamento sempre estara registrado em um ambiente com data de entrada e saida, equipamento (0,n) - (1,n) ambiente, 1 equipamento sempre estara registrado em um ambiente, e um ambiente pode ter nenhum ou n equipamentos.
-
-### 4 - Mapear Conjuntos de Relacionamento Binário 1:N: usuario(1,1) - (0,n)equipamento -> Ou seja, 1 funcionário pode ou não ter um equipamento registrado em seu nome, porém um equipamento sempre estará registrado no nome de um funcionário. equipamento (1,1) - (0,n) datas, 1 equipamento sempre estara registrado em um ambiente com data de entrada e saida, equipamento (0,n) - (1,n) ambiente, 1 equipamento sempre estara registrado em um ambiente, e um ambiente pode ter nenhum ou n equipamentos.
-
-### 5 - Mapear Conjuntos de Relacionamento Binário M:N: Não existem conjuntos M:N
-
-### 6 - Mapear Conjuntos de Relacionamentos n>2: Podem haver mais de 2 registros na entidade ambiente para a mesma sala.
-
-### 7 - Mapear Atributos Multivalorados: 
+- [x]  Mapear os Conjuntos de Entidades “Fortes” (Regulares): Entidade "usuario" e "ambiente" é forte, pois podem existir independente de outras condições
+- [x]  Mapear Conjuntos de Entidades Fracas: Entidade "Equipamento" é fraca, pois depende exclusivamente estar registrado por um funcionário e em um ambiente. Ela é o elo de ligação entre as outras entidades.
+- [x]  Mapear Conjuntos de Relacionamento Binário 1:1 : usuario(1,1) - (0,n)equipamento -> Ou seja, 1 funcionário pode ou não ter um equipamento registrado em seu nome, porém um equipamento sempre estará registrado no nome de um funcionário. equipamento (1,1) - (0,n) datas, 1 equipamento sempre estara registrado em um ambiente com data de entrada e saida, equipamento (0,n) - (1,n) ambiente, 1 equipamento sempre estara registrado em um ambiente, e um ambiente pode ter nenhum ou n equipamentos.
+- [x]  Mapear Conjuntos de Relacionamento Binário 1:N: usuario(1,1) - (0,n)equipamento -> Ou seja, 1 funcionário pode ou não ter um equipamento registrado em seu nome, porém um equipamento sempre estará registrado no nome de um funcionário. equipamento (1,1) - (0,n) datas, 1 equipamento sempre estara registrado em um ambiente com data de entrada e saida, equipamento (0,n) - (1,n) ambiente, 1 equipamento sempre estara registrado em um ambiente, e um ambiente pode ter nenhum ou n equipamentos.
+- [x]   Mapear Conjuntos de Relacionamento Binário M:N: Não existem conjuntos M:N
+- [x]  Mapear Conjuntos de Relacionamentos n>2: Podem haver mais de 2 registros na entidade ambiente para a mesma sala.
+- [x]  Mapear Atributos Multivalorados: 
 
 ![image](https://user-images.githubusercontent.com/102003274/235305578-cd5767b3-5925-49ae-bed3-a9c22a44957a.png)
