@@ -77,3 +77,34 @@ Todas as tabelas do sistema est~;ao na 1FN, todas os atributos que não são cha
 Todas os atributos da tabela que não são chave depende apenas da PK
 
 
+## 04 - Criação de Tabelas
+
+### Tabela usuario
+
+CREATE TABLE usuario 
+(PK_ID_USU number(5) PRIMARY KEY references equipamento(idusuario),  
+ NOME_USU varchar(100),  
+ SENHA_USU varchar(100),  
+ ACESSO_USU varchar(20))
+
+### Tabela equipamento
+
+CREATE TABLE equipamento 
+(PK_ID_EQU number(5) PRIMARY KEY references AMB_EQU(PK_ID_EQU),  
+ FK_ID_AMB number(5) references ambiente(PK_ID_AMB),  
+ TIPO_EQU varchar(20),  
+ idusuario number(5))
+ 
+### Tabela ambiente
+
+CREATE TABLE ambiente 
+(PK_ID_AMB number(5) PRIMARY KEY references equipamento(PK_ID_AMB),  
+ NOME_AMB varchar(20))
+ 
+### Tabela amb_equ
+
+CREATE TABLE AMB_EQU 
+(DATA_ENTRADA DATE,  
+ DATA_SAIDA DATE,  
+ PK_ID_AMB number(5) PRIMARY KEY,  
+ PK_ID_EQU number(5))
